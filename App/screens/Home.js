@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   View,
   StyleSheet,
@@ -13,6 +13,7 @@ import { format } from 'date-fns';
 import colors from '../constants/colors';
 import { ConversionInput } from '../components/ConversionInput';
 import { Button } from '../components/Button';
+import { KeyboardSpacer } from '../components/KeyboardSpacer';
 
 const screen = Dimensions.get('window');
 
@@ -61,10 +62,12 @@ export default () => {
   const conversionRate = 0.89824;
   const date = '2020-03-23';
 
+  const [scrollEnabled, setScrollEnabled] = useState(false);
+
   return (
     <View style={styles.container}>
       <StatusBar barStyle="light-content" backgroundColor={colors.blue} />
-      <ScrollView>
+      <ScrollView scrollEnabled={scrollEnabled}>
         <View style={styles.content}>
           <View style={styles.logoContainer}>
             <Image
@@ -101,7 +104,7 @@ export default () => {
             )}`}
           </Text>
           <Button text="Reverse Currencies" onPress={() => alert('todo!')} />
-          <View style={{ height: screen.height }} />
+          <KeyboardSpacer onToggle={(visible) => setScrollEnabled(visible)} />
         </View>
       </ScrollView>
     </View>
