@@ -25,10 +25,10 @@
 
 
 Landing Page:
-![screenshot](./src/assets/screenshot.png)
+![screenshot](./assets/screenshot.png)
 
 Currencies Page: 
-![screenshot](./src/assets/screenshot1.png)
+![screenshot](./assets/screenshot1.png)
 
 Additional description about the project and its features.
 
