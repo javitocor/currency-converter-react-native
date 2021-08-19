@@ -27,7 +27,7 @@
 Landing Page:
 ![screenshot](./src/assets/screenshot.png)
 
-Spaceships Page: 
+Currencies Page: 
 ![screenshot](./src/assets/screenshot1.png)
 
 Additional description about the project and its features.
@@ -48,14 +48,14 @@ Additional description about the project and its features.
 
 ### Usage
 To have this app on your pc, you need to:
-* [download](https://github.com/javitocor/Star-Wars-Catalogue/archive/development.zip) or clone this repo:
+* [download](https://github.com/javitocor/currency-converter-react-native/archive/master.zip) or clone this repo:
   - Clone with SSH:
   ```
-    git@github.com:javitocor/Star-Wars-Catalogue.git
+    git@github.com:javitocor/currency-converter-react-native.git
   ```
   - Clone with HTTPS
   ```
-    https://github.com/javitocor/Star-Wars-Catalogue.git
+    https://github.com/javitocor/currency-converter-react-native.git
   ```
 
 * In the project directory, you can run:
@@ -63,7 +63,7 @@ To have this app on your pc, you need to:
   - `$ npm install` or `$ yarn install` - installs all the dependencies required by the project
 
   - `$ expo start` or `yarn start`- runs the app in the development mode:
-    - Scan the QR code with Expo app in your mobile phone, in your terminal or in [http://localhost:19002](http://localhost:19002)
+    - Scan the QR code with Expo app in your mobile phone, in your terminal or in your browser at [http://localhost:19002](http://localhost:19002)
 
 ## Future Features
 - Call a real API to get updated rates.
@@ -79,7 +79,7 @@ To have this app on your pc, you need to:
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/javitocor/Star-Wars-Catalogue/issues).
+Feel free to check the [issues page](https://github.com/javitocor/currency-converter-react-native/issues).
 
 ## Show your support
 
@@ -97,11 +97,11 @@ This project is [MIT](lic.url) licensed.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/javitocor/Star-Wars-Catalogue.svg?style=flat-square
-[contributors-url]: https://github.com/javitocor/Star-Wars-Catalogue/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/javitocor/Star-Wars-Catalogue.svg?style=flat-square
-[forks-url]: https://github.com/javitocor/Star-Wars-Catalogue/network/members
-[stars-shield]: https://img.shields.io/github/stars/javitocor/Star-Wars-Catalogue.svg?style=flat-square
-[stars-url]: https://github.com/javitocor/Star-Wars-Catalogue/stargazers
-[issues-shield]: https://img.shields.io/github/issues/javitocor/Star-Wars-Catalogue.svg?style=flat-square
-[issues-url]: https://github.com/javitocor/Star-Wars-Catalogue/issues
+[contributors-shield]: https://img.shields.io/github/contributors/javitocor/currency-converter-react-native.svg?style=flat-square
+[contributors-url]: https://github.com/javitocor/currency-converter-react-native/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/javitocor/currency-converter-react-native.svg?style=flat-square
+[forks-url]: https://github.com/javitocor/currency-converter-react-native/network/members
+[stars-shield]: https://img.shields.io/github/stars/javitocor/currency-converter-react-native.svg?style=flat-square
+[stars-url]: https://github.com/javitocor/currency-converter-react-native/stargazers
+[issues-shield]: https://img.shields.io/github/issues/javitocor/currency-converter-react-native.svg?style=flat-square
+[issues-url]: https://github.com/javitocor/currency-converter-react-native/issues
